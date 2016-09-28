@@ -1,0 +1,29 @@
+{
+    "name": "conversion/verificare-tva",
+    "description": "Verificare TVA API",
+    "authors": [{
+            "name": "Alex Stoica",
+            "email": "alex.stoica@conversion.ro"
+        }],
+    "keywords": [
+        "integrare verificare tva"
+    ],
+    "license": [
+        "GNU"
+    ],
+    "require": {
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": "6.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Conversion\\VerificareTVA": ""
+        }
+    },
+    "target-dir": "Conversion/VerificareTVA",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
