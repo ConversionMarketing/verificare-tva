@@ -1,5 +1,6 @@
 {
     "name": "conversion/verificare-tva",
+    "type": "library",
     "description": "Verificare TVA API",
     "authors": [{
             "name": "Alex Stoica",
