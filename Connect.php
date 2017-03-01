@@ -9,7 +9,7 @@ use GuzzleHttp\Client;
  */
 class Connect
 {
-    protected $apiUri = 'http://www.verificaretva.ro/api/apiv2.aspx';
+    protected $apiUri = 'https://www.verificaretva.ro/api/apiv2.aspx';
     protected $apikey = null;
     protected $error = null;
 
